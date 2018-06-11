@@ -1,27 +1,38 @@
-# Ğ¡³ÌĞò×é¼ş»¯¿ª·¢¿ò¼Ü wepy Ê¾Àıdemo
-	WePY½è¼øÁËVue.js£¨ºóÎÄ¼ò³ÆVue£©µÄÓï·¨·ç¸ñºÍ¹¦ÄÜÌØĞÔ£¬Èç¹ûÄãÖ®Ç°´ÓÎ´½Ó´¥¹ıVue£¬½¨ÒéÏÈÔÄ¶Á[VueµÄ¹Ù·½ÎÄµµ](https://cn.vuejs.org/v2/guide/)£¬ÒÔÊìÏ¤Ïà¹Ø¸ÅÄî
-
-# ²Î¿¼ÎÄµµ
+# å°ç¨‹åºç»„ä»¶åŒ–å¼€å‘æ¡†æ¶ wepy ç¤ºä¾‹demo
+	WePYå€Ÿé‰´äº†Vue.jsï¼ˆåæ–‡ç®€ç§°Vueï¼‰çš„è¯­æ³•é£æ ¼å’ŒåŠŸèƒ½ç‰¹æ€§ï¼Œå¦‚æœä½ ä¹‹å‰ä»æœªæ¥è§¦è¿‡Vueï¼Œå»ºè®®å…ˆé˜…è¯»[Vueçš„å®˜æ–¹æ–‡æ¡£](https://cn.vuejs.org/v2/guide/)ï¼Œä»¥ç†Ÿæ‚‰ç›¸å…³æ¦‚å¿µ
+	
+# å‚è€ƒæ–‡æ¡£
 - [github](https://github.com/Tencent/wepy)
-- [¹Ù·½ÎÄµµ] (https://tencent.github.io/wepy/document.html#/)
+- [å®˜æ–¹æ–‡æ¡£] (https://tencent.github.io/wepy/document.html#/)
 
-# ÏîÄ¿´´½¨ÓëÊ¹ÓÃ
-È«¾Ö°²×° npm install wepy-cli -g
-³õÊ¼»¯Ò»¸öÏîÄ¿ wepy init standard my-project
-°²×°ÒÀÀµ  npm  install
-¿ªÆôÊµÊ±±àÒë wepy build --watch
-
-# WePYÏîÄ¿µÄÄ¿Â¼½á¹¹
-©À©¤©¤ dist                   Ğ¡³ÌĞòÔËĞĞ´úÂëÄ¿Â¼£¨¸ÃÄ¿Â¼ÓÉWePYµÄbuildÖ¸Áî×Ô¶¯±àÒëÉú³É£¬Çë²»ÒªÖ±½ÓĞŞ¸Ä¸ÃÄ¿Â¼ÏÂµÄÎÄ¼ş£©
-©À©¤©¤ node_modules           
-©À©¤©¤ src                    ´úÂë±àĞ´µÄÄ¿Â¼£¨¸ÃÄ¿Â¼ÎªÊ¹ÓÃWePYºóµÄ¿ª·¢Ä¿Â¼£©
-|   ©À©¤©¤ components         WePY×é¼şÄ¿Â¼£¨×é¼ş²»ÊôÓÚÍêÕûÒ³Ãæ£¬½ö¹©ÍêÕûÒ³Ãæ»òÆäËû×é¼şÒıÓÃ£©
-|   |   ©À©¤©¤ com_a.wpy      ¿É¸´ÓÃµÄWePY×é¼şa
-|   |   ©¸©¤©¤ com_b.wpy      ¿É¸´ÓÃµÄWePY×é¼şb
-|   ©À©¤©¤ pages              WePYÒ³ÃæÄ¿Â¼£¨ÊôÓÚÍêÕûÒ³Ãæ£©
-|   |   ©À©¤©¤ index.wpy      indexÒ³Ãæ£¨¾­buildºó£¬»áÔÚdistÄ¿Â¼ÏÂµÄpagesÄ¿Â¼Éú³Éindex.js¡¢index.json¡¢index.wxmlºÍindex.wxssÎÄ¼ş£©
-|   |   ©¸©¤©¤ other.wpy      otherÒ³Ãæ£¨¾­buildºó£¬»áÔÚdistÄ¿Â¼ÏÂµÄpagesÄ¿Â¼Éú³Éother.js¡¢other.json¡¢other.wxmlºÍother.wxssÎÄ¼ş£©
-|   ©¸©¤©¤ app.wpy            Ğ¡³ÌĞòÅäÖÃÏî£¨È«¾ÖÊı¾İ¡¢ÑùÊ½¡¢ÉùÃ÷¹³×ÓµÈ£»¾­buildºó£¬»áÔÚdistÄ¿Â¼ÏÂÉú³Éapp.js¡¢app.jsonºÍapp.wxssÎÄ¼ş£©
-©¸©¤©¤ package.json           ÏîÄ¿µÄpackageÅäÖÃ
+# å¼€å‘å·¥å…· sublime [ä»£ç é«˜äº®è®¾ç½®](https://tencent.github.io/wepy/document.html#/?id=%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE) 
+æ–‡ä»¶åç¼€ä¸º.wpyï¼Œå¯å…±ç”¨Vueçš„é«˜äº®è§„åˆ™ï¼Œä½†éœ€è¦æ‰‹åŠ¨è®¾ç½®ã€‚ä¸‹é¢æä¾›ä¸€äº›å¸¸è§IDEæˆ–ç¼–è¾‘å™¨ä¸­å®ç°ä»£ç é«˜äº®çš„ç›¸å…³è®¾ç½®æ­¥éª¤ä»¥ä¾›å‚è€ƒ(ä¹Ÿå¯é€šè¿‡æ›´æ”¹æ–‡ä»¶åç¼€åçš„æ–¹å¼æ¥å®ç°é«˜äº®ï¼Œè¯¦è§åæ–‡ç›¸å…³ä»‹ç»)ã€‚
 
 
+# é¡¹ç›®åˆ›å»ºä¸ä½¿ç”¨
+å…¨å±€å®‰è£… npm install wepy-cli -g
+åˆå§‹åŒ–ä¸€ä¸ªé¡¹ç›® wepy init standard my-project
+å®‰è£…ä¾èµ–  npm  install
+å¼€å¯å®æ—¶ç¼–è¯‘ wepy build --watch
+
+# WePYé¡¹ç›®çš„ç›®å½•ç»“æ„
+â”œâ”€â”€ dist                   å°ç¨‹åºè¿è¡Œä»£ç ç›®å½•ï¼ˆè¯¥ç›®å½•ç”±WePYçš„buildæŒ‡ä»¤è‡ªåŠ¨ç¼–è¯‘ç”Ÿæˆï¼Œè¯·ä¸è¦ç›´æ¥ä¿®æ”¹è¯¥ç›®å½•ä¸‹çš„æ–‡ä»¶ï¼‰
+â”œâ”€â”€ node_modules           
+â”œâ”€â”€ src                    ä»£ç ç¼–å†™çš„ç›®å½•ï¼ˆè¯¥ç›®å½•ä¸ºä½¿ç”¨WePYåçš„å¼€å‘ç›®å½•ï¼‰
+|   â”œâ”€â”€ components         WePYç»„ä»¶ç›®å½•ï¼ˆç»„ä»¶ä¸å±äºå®Œæ•´é¡µé¢ï¼Œä»…ä¾›å®Œæ•´é¡µé¢æˆ–å…¶ä»–ç»„ä»¶å¼•ç”¨ï¼‰
+|   |   â”œâ”€â”€ com_a.wpy      å¯å¤ç”¨çš„WePYç»„ä»¶a
+|   |   â””â”€â”€ com_b.wpy      å¯å¤ç”¨çš„WePYç»„ä»¶b
+|   â”œâ”€â”€ pages              WePYé¡µé¢ç›®å½•ï¼ˆå±äºå®Œæ•´é¡µé¢ï¼‰
+|   |   â”œâ”€â”€ index.wpy      indexé¡µé¢ï¼ˆç»buildåï¼Œä¼šåœ¨distç›®å½•ä¸‹çš„pagesç›®å½•ç”Ÿæˆindex.jsã€index.jsonã€index.wxmlå’Œindex.wxssæ–‡ä»¶ï¼‰
+|   |   â””â”€â”€ other.wpy      otheré¡µé¢ï¼ˆç»buildåï¼Œä¼šåœ¨distç›®å½•ä¸‹çš„pagesç›®å½•ç”Ÿæˆother.jsã€other.jsonã€other.wxmlå’Œother.wxssæ–‡ä»¶ï¼‰
+|   â””â”€â”€ app.wpy            å°ç¨‹åºé…ç½®é¡¹ï¼ˆå…¨å±€æ•°æ®ã€æ ·å¼ã€å£°æ˜é’©å­ç­‰ï¼›ç»buildåï¼Œä¼šåœ¨distç›®å½•ä¸‹ç”Ÿæˆapp.jsã€app.jsonå’Œapp.wxssæ–‡ä»¶ï¼‰
+â””â”€â”€ package.json           é¡¹ç›®çš„packageé…ç½®
+
+
+# [å•æ–‡ä»¶æ¨¡å¼ï¼Œç›®å½•ç»“æ„æ›´æ¸…æ™°ï¼Œå¼€å‘æ›´æ–¹ä¾¿](https://tencent.github.io/wepy/document.html#/?id=%E5%8D%95%E6%96%87%E4%BB%B6%E6%A8%A1%E5%BC%8F%EF%BC%8C%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E6%9B%B4%E6%B8%85%E6%99%B0%EF%BC%8C%E5%BC%80%E5%8F%91%E6%9B%B4%E6%96%B9%E4%BE%BF)
+åŸç”Ÿå°ç¨‹åºè¦æ±‚appå®ä¾‹å¿…é¡»æœ‰3ä¸ªæ–‡ä»¶ï¼šapp.jsã€app.jsonã€app.wxssï¼Œè€Œpageé¡µé¢åˆ™ä¸€èˆ¬æœ‰4ä¸ªæ–‡ä»¶ï¼špage.jsã€page.jsonã€page.wxmlã€page.wxssï¼Œå¹¶ä¸”è¿˜è¦æ±‚appå®ä¾‹çš„3ä¸ªæ–‡ä»¶ä»¥åŠpageé¡µé¢çš„4ä¸ªæ–‡ä»¶é™¤åç¼€åå¤–å¿…é¡»åŒåï¼Œå…·ä½“å¯å‚çœ‹å®˜æ–¹ç›®å½•ç»“æ„ã€‚
+
+è€Œåœ¨WePYä¸­åˆ™ä½¿ç”¨äº†å•æ–‡ä»¶æ¨¡å¼ï¼Œå°†åŸç”Ÿå°ç¨‹åºappå®ä¾‹çš„3ä¸ªæ–‡ä»¶ç»Ÿä¸€ä¸ºapp.wpyï¼Œpageé¡µé¢çš„4ä¸ªæ–‡ä»¶ç»Ÿä¸€ä¸ºpage.wpyã€‚ä½¿ç”¨WePYå¼€å‘å‰åçš„å¼€å‘ç›®å½•ç»“æ„å¯¹æ¯”å¦‚ä¸‹ï¼š
+
+
+# [wepy.config.jsé…ç½®æ–‡ä»¶è¯´æ˜] (https://tencent.github.io/wepy/document.html#/?id=wepyconfigjs%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E)
